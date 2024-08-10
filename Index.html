@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victoria</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">Portfolio</div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="Experience.html">Experinces</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home" class="name">
+        <div class="container changing-bg">
+          <h1>Hello, I'm Victoria Breen</h1>
+          <p>Aspiring Web Developer | Student</p>
+        </div>
+      </section>
+      <h2>Check out a game I made!</h2>
+      <section>
+        <div class="iframe-container">
+          <iframe
+            src="https://arcade.makecode.com/---run?id=_Rcgc0Jcw1cyU"
+            allowfullscreen="allowfullscreen"
+            sandbox="allow-popups allow-forms allow-scripts allow-same-origin"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>Let's Connect</h2>
+      <div class="social-container">
+        <a
+          href="https://github.com/victoriaa-b"
+          target="_blank"
+          class="social-link"
+        >
+          <img
+            src="Images/github.webp"
+            height="50"
+            width="50"
+            alt="Instagram Link"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/victoria-breen-b8888b26a/"
+          target="_blank"
+          class="social-link"
+        >
+          <img
+            src="Images/Linkin.png"
+            height="50"
+            width="50"
+            alt="Instagram Link"
+          />
+        </a>
+      </div>
+      <div class="container">
+        <p>&copy; 2024 Victoria Breen. All Rights Reserved.</p>
+
+        <p class="date">
+          This document was last modified
+          <span id="demo" class="timestamp"></span>.
+        </p>
+
+        <script>
+          document.getElementById("demo").innerHTML = document.lastModified;
+        </script>
+      </div>
+    </footer>
+  </body>
+</html>

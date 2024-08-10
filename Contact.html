@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victoria Breen</title>
+    <link rel="stylesheet" href="styles1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">Portfolio</div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="Experience.html">Experiences</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="long-boxes">
+        <div class="long-box">
+          <h1>Designs I Have Created</h1>
+          <div class="slideshow">
+            <img
+              src="Images/WigglyWag.png"
+              width="500"
+              height="280"
+              alt="Image 1"
+            />
+            <img
+              src="Images/Alge-bros.png"
+              width="380"
+              height="280"
+              alt="Image 2"
+            />
+            <img
+              src="Images/Coming.png"
+              width="500"
+              height="280"
+              alt="Image 2"
+            />
+            <img
+              src="Images/GaryBlue.png"
+              width="380"
+              height="280"
+              alt="Image 2"
+            />
+            <img
+              src="Images/BeautyBliss.png"
+              width="350"
+              height="280"
+              alt="Image 2"
+            />
+            <img
+              src="Images/DogBrand.png"
+              width="350"
+              height="300"
+              alt="Image 2"
+            />
+
+            <script>
+              const images = document.querySelectorAll(".slideshow img");
+              var currentImageIndex = 0;
+
+              function showNextImage() {
+                images[currentImageIndex].style.display = "none";
+                currentImageIndex = (currentImageIndex + 1) % images.length;
+                images[currentImageIndex].style.display = "block";
+              }
+              images.forEach((img, index) => {
+                if (index !== 0) img.style.display = "none";
+              });
+
+              setInterval(showNextImage, 2000);
+            </script>
+          </div>
+        </div>
+      </section>
+      <section class="long-boxes">
+        <div class="long-box">
+          <h2>Contact Me</h2>
+          <p>
+            If you want to get in touch, feel free to reach out via email.
+            <br />
+            <br />
+            <strong>Email:</strong>
+            <a href="mailto:your-email@example.com">victoria.breen@keyin.com</a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>Let's Connect</h2>
+      <div class="social-container">
+        <a
+          href="https://github.com/victoriaa-b"
+          target="_blank"
+          class="social-link"
+        >
+          <img
+            src="Images/github.webp"
+            height="50"
+            width="50"
+            alt="GitHub Link"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/victoria-breen-b8888b26a/"
+          target="_blank"
+          class="social-link"
+        >
+          <img
+            src="Images/Linkin.png"
+            height="50"
+            width="50"
+            alt="LinkedIn Link"
+          />
+        </a>
+      </div>
+      <div class="container">
+        <p>&copy; 2024 Victoria Breen. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
