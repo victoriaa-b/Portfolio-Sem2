@@ -1,4 +1,4 @@
-/* Home and Contact*/
+/* Home and*/
 body {
   font-family: "Edu AU VIC WA NT Hand", sans-serif;
   margin: 0;
@@ -124,12 +124,12 @@ footer {
 
 .iframe-container {
   position: relative;
-  width: 60%; /* Adjust the width to make the iframe smaller */
-  max-width: 600px; /* Set a maximum width for the container */
-  margin: 20px auto; /* Center the container and add margin */
-  padding-top: 70%; /* 16:9 Aspect Ratio */
+  width: 60%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding-top: 70%;
   overflow: hidden;
-  background: #f0f0f0; /* Optional: background color */
+  background: #f0f0f0;
 }
 
 .iframe-container iframe {
