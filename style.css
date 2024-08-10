@@ -94,7 +94,7 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Animation for Changing Background Color */
+/* Changing Background Color */
 @keyframes backgroundChange {
   0% {
     background-color: #5f2993;
@@ -118,8 +118,8 @@ footer {
 
 .changing-bg {
   animation: backgroundChange 10s linear infinite;
-  padding: 150px 20px; /* Increased padding */
-  border-radius: 10px; /* Optional: added border-radius for a modern look */
+  padding: 150px 20px;
+  border-radius: 10px;
 }
 
 .iframe-container {
@@ -142,27 +142,25 @@ footer {
 }
 
 #demo {
-  font-size: 0.75em; /* Smaller font size */
-  color: #5f2993; /* Lighter color for less emphasis */
-  font-family: Arial, sans-serif; /* Font family for consistency */
+  font-size: 0.75em;
+  color: #5f2993;
+  font-family: Arial, sans-serif;
 }
 
 .date {
   font-size: 12px;
 }
-/* Ensure the parent container aligns its content to the right */
+
 .social-container {
   display: flex;
-  justify-content: center; /* Aligns children (the link) to the right */
-  padding: 10px; /* Optional: Adds some padding around the container */
+  justify-content: center;
+  padding: 10px;
 }
 
-/* Ensure the link is displayed as a block-level element */
 .social-link {
   display: block;
 }
 
-/* Ensure the image is displayed as a block-level element */
 img {
   display: block;
   padding: 8px;
@@ -177,23 +175,22 @@ img {
 .intro p {
   font-size: 1.2em;
 }
-/* Existing CSS... */
 
 .intro {
-  text-align: center; /* Center text */
+  text-align: center;
 }
 
 .img-container {
   display: flex;
-  justify-content: center; /* Center image horizontally */
-  align-items: center; /* Center image vertically */
+  justify-content: center;
+  align-items: center;
 }
 
 .circle-img {
   border-radius: 50%;
-  width: 250px; /* Adjust width as needed */
-  height: 250px; /* Ensure height matches width to keep the circle shape */
-  object-fit: cover; /* Ensures the image covers the container without distortion */
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
 }
 
 .slideshow {
